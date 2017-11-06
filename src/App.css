@@ -40,23 +40,36 @@ background-color: #F4F4F9;
   height:100%;
 }
 
-/* .App-Footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
 
-} */
+@media only screen 
+and (max-device-width: 1150px)
+{ 
 
-/* .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-} */
+  .App-Container {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .Body-Container{
+  display:flex;
+  justify-content: center;
+  background-color: #F4F4F9;
+  }
+  
+  .Left-Body-Container{
+    display: none;
+  }
+  
+  .Center-Body-Container{
+    order:1;
+    background-color: #B8DBD9;
+    width: 100%;
+  }
+  
+  
+  .Right-Body-Container{
+    display: none;
+  }
+
+}

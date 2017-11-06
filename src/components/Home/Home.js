@@ -15,7 +15,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className='Home-Container'>
-                <h1 className='welcome-header'>WELCOME TO MY SUB DOMAIN</h1>
+                <h1 className='welcome-header'>WELCOME TO MY SUB DOMAIN<br/> <br/> COMING SOON!</h1>
             </div>
         );
     };
