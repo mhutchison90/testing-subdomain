@@ -35,6 +35,6 @@ massive(process.env.CONNECTION_STRING).then(db => {
 
 
 // --SETUP APP TO LISTEN TO PORT--
-const PORT = 8085;
+const PORT = 8080;
 app.listen(PORT, () => console.log(`Listening on ${PORT}`))
 
